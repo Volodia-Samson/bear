@@ -9,16 +9,13 @@
     width: 100%;
 }
 
-.navigation{
-    height: 40px;
-    line-height: 50%;
-}
-
 .nav-item{
     float: left;
     margin-left: 16px;
     color: white;
     display: block;
+    height: 40px;
+    line-height: 50%;
 }
 
 .content{
