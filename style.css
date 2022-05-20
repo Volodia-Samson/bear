@@ -8,19 +8,20 @@
     position: fixed;
     width: 100%;
 }
-.navigation{
+.navigation {
+    height: 40px;
     position: relative;
     float: left;
-    height: 40px;
-    
+    line-height: 50%;
 }
-.nav-item{
+.nav-list .nav-item{
+    position: relative;
     float: left;
     margin-left: 16px;
-    color: white;
     display: block;
-    line-height: calc(50%);
+    color: white;
 }
+
 
 .content{
     height: 5000px;
