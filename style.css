@@ -6,20 +6,20 @@
     position: fixed;
     background-color: darkturquoise;
     height: 40px;
-    position: fixed;
     width: 100%;
     
 }
 .navigation .nav-list .nav-item{
-    position:relative;
-    float: left;
     display: block;
     margin-left: 16px; 
     line-height: 40px;
-    bottom: 20px;
     color: white;
 }
-
+.nav-item{
+  position: relative;
+  float: left;
+  bottom: 15px;
+}
 .content{
     height: 5000px;
     background-color: beige;
