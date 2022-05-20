@@ -12,13 +12,12 @@
 .navigation .nav-list .nav-item{
     display: block;
     margin-left: 16px; 
-    line-height: 40px;
+    line-height: 40px, 50%;
     color: white;
 }
 .nav-item{
   position: relative;
   float: left;
-  bottom: 15px;
 }
 .content{
     height: 5000px;
