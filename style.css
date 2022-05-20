@@ -9,16 +9,16 @@
     width: 100%;
     
 }
-.navigation .nav-list .nav-item{
+.nav-item{
     display: block;
     margin-left: 16px; 
-    line-height: 50%;
+    line-height: 40px;
     color: white;
+    position: relative;
+    float: left;
+    bottom: 16px;
 }
-.nav-item{
-  position: relative;
-  float: left;
-}
+
 .content{
     height: 5000px;
     background-color: beige;
