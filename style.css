@@ -1,17 +1,18 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.header{
+.header {
     position: fixed;
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
-    
+
 }
-.nav-item{
+
+.nav-item {
     display: block;
-    margin-left: 16px; 
+    margin-left: 16px;
     line-height: 40px;
     color: white;
     position: relative;
@@ -19,42 +20,41 @@
     bottom: 16px;
 }
 
-.content{
+.content {
     height: 5000px;
     background-color: beige;
 }
 
-.head{
+.head {
     position: relative;
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-     float:left;
-     top:calc(5%);
-     left: calc(40%);
-    
-     
+    float: left;
+    top: calc(500px - 200px);
+    left: calc(50%);
 }
 
-.ear{
+.ear {
     background-color: brown;
     height: 60px;
     width: 40px;
-    position: relative; 
+    position: relative;
 }
-.ear_right{
+
+.ear_right {
     float: left;
     bottom: 60px;
-    right:40px; 
-    }
+    right: 40px;
+}
 
-.ear_left{
+.ear_left {
     float: right;
     bottom: 60px;
     left: 40px;
 }
 
-.eye{
+.eye {
     height: 30px;
     width: 30px;
     background-color: grey;
@@ -63,11 +63,12 @@
     border-radius: 50%;
 }
 
-.eye_left{
+.eye_left {
     float: left;
-    
-    
+
+
 }
-.eye_right{
+
+.eye_right {
     float: right;
 }
