@@ -31,7 +31,7 @@
     height: 200px;
     background-color: aquamarine;
     float: left;
-    top: 180px;
+    top: calc(240px);
     left: 200px;
 }
 
